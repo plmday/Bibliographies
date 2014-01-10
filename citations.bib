@@ -10,8 +10,92 @@
   journal = {Higher-Order and Symbolic Computation},
   volume  = {11},
   number  = {1},
+  pages   = {7--105},
   year    = {1998},
-  pages   = {7-105},
+}
+
+@article{Dybvig1990ANewApproach,
+  author    = {R. Kent Dybvig and Robert Hieb},
+  title     = {A New Approach to Procedures with Variable Arity},
+  journal   = {Lisp Symb. Comput.},
+  volume    = {3},
+  number    = {3},
+  pages     = {229--244},
+  year      = {1990},
+  publisher = {Kluwer Academic Publishers},
+  address   = {Hingham, MA, USA},
+  note      = {
+    This paper proposes a ``list-free'' approach in Lisp to define
+    variable-arity procedures via pattern matching on the spine of their
+    argument lists.
+  }
+}
+
+@article{Dybvig1993SyntacticAbstraction,
+  author    = {R. Kent Dybvig and Robert Hieb and Carl Bruggeman},
+  title     = {Syntactic Abstraction in Scheme},
+  journal   = {LISP and Symbolic Computation},
+  volume    = {5},
+  number    = {4},
+  pages     = {295-326},
+  year      = {1993},
+  publisher = {Kluwer Academic Publishers},
+  keywords  = {Syntactic Abstraction, Macros, Program Transformation, Hygienic Macros},
+  note      = {
+    This paper describes a Scheme syntactic abstraction mechanism around the
+    pattern/template-based \texttt{syntax-case}, a macro system underpinned by
+    an efficient macro-expansion algorithm that guarantees intended hygienic
+    but also allows intentional unhygienic macros defined in a general-purpose
+    language.
+  }
+}
+
+@incollection{Dybvig2007SyntacticAbstraction,
+  author = {R. Kent Dybvig},
+  title = {Syntactic Abstraction: The \texttt{syntax-case} Expander},
+  booktitle = {Beautiful Code: Leading Programmers Explain How They Think},
+  chapter = {25},
+  pages = {407--428},
+  editor = {Andy Oram and Greg Wilson},
+  publisher = {O'Reilly and Associates},
+  year = {2007},
+  note = {
+    This chapter provides a description and examples of the
+    \texttt{syntax-case} expansion algorithm.
+  }
+}
+
+@inproceedings{Erdweg2011SugarJ,
+  author    = {
+    Sebastian Erdweg and Lennart C.L. Kats and Tillmann Rendel and
+    Christian K\"{a}stner and Klaus Ostermann and Eelco Visser
+  },
+  title     = {SugarJ: Library-Based Language Extensibility},
+  booktitle = {
+    Proceedings of the ACM international conference companion on Object
+    oriented programming systems languages and applications companion
+  },
+  series    = {SPLASH '11},
+  pages     = {187--188},
+  year      = {2011},
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  keywords  = {
+    DSL Embedding, Language Extensibility, Language Workbench, Library
+  },
+}
+
+@article{Hanson1981BlockNecessary,
+  author  = {David R. Hanson},
+  title   = {Is Block Structure Necessary?},
+  journal = {Software: Practice and Experience},
+  volume  = {11},
+  number  = {8},
+  pages   = {853-866},
+  year    = {1981},
+  note    = {
+    This paper argues against block structures for modules.
+  }
 }
 
 @article{McIlroy1960MacroExtensions,
@@ -21,8 +105,8 @@
   volume    = {3},
   number    = {4},
   month     = {apr},
-  year      = {1960},
   pages     = {214--220},
+  year      = {1960},
   publisher = {ACM},
   address   = {New York, NY, USA},
   note      = {
@@ -38,8 +122,8 @@
    Proceedings of the 1980 ACM conference on LISP and functional programming
   },
   series    = {LFP '80},
-  year      = {1980},
   pages     = {56--64},
+  year      = {1980},
   publisher = {ACM},
   address   = {New York, NY, USA},
   note      = {
@@ -54,8 +138,8 @@
   author    = {Frank Pfenning},
   title     = {Logical Frameworks},
   booktitle = {Handbook of Automated Reasoning},
-  year      = {2001},
   pages     = {1063--1147},
+  year      = {2001},
   note      = {
     This chapter introduces the logical-framework way of formalizing a
     deduction system (a fragment of the intuitionistic first-order logic):
@@ -72,30 +156,10 @@
     Proceedings of the November 17-19, 1970, fall joint computer conference
   },
   series    = {AFIPS '70 (Fall)},
-  year      = {1970},
   pages     = {9--20},
+  year      = {1970},
   publisher = {ACM},
   address   = {New York, NY, USA},
-}
-
-@inproceedings{Erdweg2011SugarJ,
-  author    = {
-    Erdweg, Sebastian and Kats, Lennart C.L. and Rendel, Tillmann and
-    K\"{a}stner, Christian and Ostermann, Klaus and Visser, Eelco
-  },
-  title     = {SugarJ: library-based language extensibility},
-  booktitle = {
-    Proceedings of the ACM international conference companion on Object
-    oriented programming systems languages and applications companion
-  },
-  series    = {SPLASH '11},
-  year      = {2011},
-  pages     = {187--188},
-  publisher = {ACM},
-  address   = {New York, NY, USA},
-  keywords  = {
-    dsl embedding, language extensibility, language workbench, library
-  },
 }
 
 @inproceedings{Standish1975Extensibility,
@@ -106,8 +170,8 @@
     exposition
   },
   series    = {AFIPS '75},
-  year      = {1975},
   pages     = {287--290},
+  year      = {1975},
   publisher = {ACM},
   address   = {New York, NY, USA},
 }
